@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #272044;
+  background: #44203a;
 }
 
 .container {
@@ -68,7 +68,7 @@ card-header.grid{
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #b32c7d;
   text-decoration: none;
 }
 
@@ -180,8 +180,8 @@ main p {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(68, 32, 67, 0.9),
+      rgba(68, 32, 61, 0.9)
     ),
     url("../images/footer_chess.jpeg");
 
