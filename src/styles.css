@@ -81,7 +81,11 @@ section {
 section.secondary {
   background: #f8f8f8;
 }
-
+.card-header {
+  margin-top: 30px;
+  grid-template-columns: 0.5fr!important;
+  justify-content: center;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/header_background.jpg");
@@ -242,9 +246,10 @@ footer a {
   section {
     padding: 30px;
   }
-  .card-header img{
-    display: none;
-  }
+  .card-header {
+    grid-template-columns: 0.5fr!important;
+    justify-content: center;
+}
   .embed{
     aspect-ratio: 16/9;
   }
