@@ -17,6 +17,10 @@ body {
   grid-gap: 64px;
 }
 
+card-header.grid{
+  grid-gap:0;
+}
+
 .img-responsive {
   max-width: 100%;
   display: block;
@@ -234,5 +238,11 @@ footer a {
 
   section {
     padding: 30px;
+  }
+  .card-header img{
+    display: none;
+  }
+  .embed{
+    aspect-ratio: 16/9;
   }
 }
